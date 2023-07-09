@@ -3,26 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>rsschool-cv-html</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav>
+    <div class="main-container">
+        <header class="primary-header">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"> 
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#code" class="nav-link">Code</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experience" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#education" class="nav-link">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#language" class="nav-link">Languages</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="profile-section" id="profile">
+                <img class="profile-image" src="assets/images/ES.jpeg" alt="Elizaveta Semenova">
+                <div class="profile-info">
+                    <h1>Elizaveta Semenova</h1>
+                    <p>Beginner UX Designer</p>
+                </div>
+            </section>
+            <section class="contact-section">          
+                <h2>Contact information</h2>
+                <ul class="contact-list">
+                    <li class="contact-item">Phone:
+                        <a class="contact-link" href="tel:+905056570112" title="phone">+90 (505)657 0112</a>
+                    </li>
+                    <li class="contact-item">E-mail:
+                        <a class="contact-link" href="mailto:semlisa1990@gmail.com" title="email">semlisa1990@gmail.com</a>
+                    </li>
+                    <li class="contact-item">Github:
+                        <a class="contact-link" href="https://github.com/semlisa1990" title="github">semlisa1990</a>
+                    </li>
+                </ul>
+            </section>
+            <div class="container">
+                <section class="about-section" id="about">
+                    <h2>About me</h2>
+                    <p>As an aspiring UX/UI designer, it is imperative for me to acquire a solid understanding of the fundamentals of frontend development. This knowledge is crucial in order to comprehensively grasp the intricacies of a UX/UI designer’s role and effectively collaborate with developers throughout the design process. By delving into the foundations of frontend development, I aim to enhance my ability to create visually appealing and user-friendly interfaces while considering the technical aspects and limitations of implementation. This holistic approach will enable me to craft seamless user experiences that seamlessly merge aesthetic appeal with functional excellence.</p>
+                </section>
+                <section class="skills-section" id="skills">
+                    <h2>Skills</h2>
+                        <ul class="skills-list">
+                            <li>HTML5;</li>
+                            <li>Python;</li>
+                            <li>Figma.</li>
+                        </ul>
+                </section>
+                <section class="code-section" id="code">
+                    <h2>Code example</h2>
+                    <p>Simple code</p>
+                    <code>
+        <span>def</span> calculate_sum(a, b):
+            <span>return</span> a + b
+
+        num1 = 5
+        num2 = 10
+        result = calculate_sum(num1, num2)
+        <span>print</span>(result)
+                    </code>
+                </section>
+        <section class="projects-section" id="experience">
+                        <h2>Projects</h2>
+                            <ul class="projects-list">
+                                <li>Project: 
+                                    <a class="projects-link" href="https://sciencen.org/assets/Kontent/Konferencii/Arhiv-konferencij/KOF-800.pdf" target="_blank"> https://sciencen.org</a>
+                                </li>
+                                <li>UX/UI design development: 
+                                    <a class="projects-link" href="https://www.nefu-medphys.com" target="_blank">https://www.nefu-medphys.com</a>
+                                </li>
+                            </ul>
+                    </section>
+                    <section class="education-section" id="education">
+                        <h2>Education</h2>
+                        <article class="education-article">
+                            <ul class="education-list">
+                                <li>North-Eastern Federal University/specialist in physics and computer science(5 years)</li>
+                                <li>North-Eastern Federal University/master of Corporate E-learning Specialist(in progress)</li>
+                            </ul>
+                        </article>
+                    </section>
+                    <section class="lang-section" id="language">
+                        <h2>Languages</h2>
+                        <ul class="education-list">
+                            <li>English - Pre-intermediate</li>
+                            <li>Russian - Native</li>
+                        </ul>
+                    </section>
+                </div>
+            </main>
+        <footer>
             <ul>
                 <li>
-                    <a href=""></a>
+                    <a href="https://github.com/semlisa1990" target="_blank">semlisa1990</a>
                 </li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-            </ul>ß
-        </nav>
-    </header>
-    <main></main>
-    <footer></footer>
+                <li>
+                    2023
+                </li>
+                <li>
+                    <a href="https://rs.school/js/" target="_blank">
+                        <img src="assets/images/rs_school_js.svg" alt="Логотип RSSchool" width="100">
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
 </body>
 </html>
